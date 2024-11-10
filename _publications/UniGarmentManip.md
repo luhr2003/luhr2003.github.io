@@ -11,6 +11,7 @@ project_url: "https://warshallrho.github.io/unigarmentmanip/"
 paper_url: "https://ieeexplore.ieee.org/document/10657950?denied="
 award: "Spotlight Presentation"
 award_venue: "ICRA 2024 Workshop on Deformable Object Manipulation"
+teaser: "unigarmentmanip.png"
 ---
 <style>
     .light-red {
