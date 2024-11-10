@@ -5,6 +5,7 @@ permalink: /publication/unigarmentmanip
 excerpt: 'We propose to learn dense visual correspondence for diverse garment manipulation tasks with category-level generalization using only one- or few-shot human demonstrations. '
 date: 2024-02-01
 venue: 'CVPR 2024'
+author: "Ruihai Wu*, Haoran Lu*, Yiyan Wang, Yubo Wang, Hao Dong"
 ---
 <style>
     .light-red {
