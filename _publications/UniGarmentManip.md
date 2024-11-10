@@ -3,7 +3,7 @@ title: "UniGarmentManip: A Unified Framework for Category-Level Garment Manipula
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024-02
+date: 2024-02-01
 venue: 'CVPR 2024'
 paperurl: 'https://warshallrho.github.io/unigarmentmanip/'
 ---
