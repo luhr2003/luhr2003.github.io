@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haoran Lu | 鲁浩然"
+title: "Haoran Lu '|' 鲁浩然"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
