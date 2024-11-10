@@ -123,6 +123,9 @@ include:
   - _pages
   - files
 exclude:
+  - talks.html
+  - teaching.html
+  - portfolio.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
