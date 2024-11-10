@@ -1,9 +1,9 @@
 ---
-title: " "
+title: "Where2Explore: Few-shot Affordance Learning for Unseen Novel Categories of Articulated Objects"
 collection: publications
 permalink: /publication/Where2Explore
 excerpt: "We introduce an affordance learning framework that effectively explores novel categories with minimal interactions on a limited number of instances. Our framework explicitly estimates the geometric similarity across different categories, identifying local areas that differ from shapes in the training categories for efficient exploration while concurrently transferring affordance knowledge to similar parts of the objects. "
-date: 2023-09-26
+date: 2024-04-26
 venue: 'NeurIPS 2023'
 author: "Chuanruo Ning*, Ruihai Wu*, Haoran Lu, Kaichun Mo, Hao Dong"
 code_url: "https://github.com/TritiumR/Where2Explore"

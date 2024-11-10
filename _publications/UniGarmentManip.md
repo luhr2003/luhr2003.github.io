@@ -3,7 +3,7 @@ title: "UniGarmentManip: A Unified Framework for Category-Level Garment Manipula
 collection: publications
 permalink: /publication/unigarmentmanip
 excerpt: 'We propose to learn dense visual correspondence for diverse garment manipulation tasks with category-level generalization using only one- or few-shot human demonstrations. '
-date: 2024-02-01
+date: 2024-06-01
 venue: 'CVPR 2024'
 author: "Ruihai Wu*, Haoran Lu*, Yiyan Wang, Yubo Wang, Hao Dong"
 code_url: "https://github.com/luhr2003/UniGarmentManip"
