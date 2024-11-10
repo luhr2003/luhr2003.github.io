@@ -50,6 +50,8 @@
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+      {% if post.award and post.award_venue %}
+        <p style="color: red;">Award: {{ post.award }} </p> <p> at {{ post.award_venue }}</p>
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
@@ -64,16 +66,16 @@
 <!--    {% elsif post.paperurl %}-->
 <!--      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>-->
 <!--    {% endif %}-->
-    {% if post.paperurl and post.code_url and post.project_url %}
-      <p> <a href=" {{ post.paperurl }} "><u>Paper</u></a> / <a href=" {{ post.code_url }} "><u>Code</u></a> / <a href=" {{ post.project_url }} "><u>Project</u></a></p>
+    {% if post.paper_url and post.code_url and post.project_url %}
+      <p> <a href=" {{ post.paper_url }} "><u>Paper</u></a> / <a href=" {{ post.code_url }} "><u>Code</u></a> / <a href=" {{ post.project_url }} "><u>Project</u></a></p>
     {% elsif post.paperurl and post.code_url %}
-        <p> <a href=" {{ post.paperurl }} "><u>Paper</u></a> / <a href=" {{ post.code_url }} "><u>Code</u></a></p>
+        <p> <a href=" {{ post.paper_url }} "><u>Paper</u></a> / <a href=" {{ post.code_url }} "><u>Code</u></a></p>
         {% elsif post.paperurl and post.project_url %}
-        <p> <a href=" {{ post.paperurl }} "><u>Paper</u></a> / <a href=" {{ post.project_url }} "><u>Project</u></a></p>
+        <p> <a href=" {{ post.paper_url }} "><u>Paper</u></a> / <a href=" {{ post.project_url }} "><u>Project</u></a></p>
         {% elsif post.code_url and post.project_url %}
         <p> <a href=" {{ post.code_url }} "><u>Code</u></a> / <a href=" {{ post.project_url }} "><u>Project</u></a></p>
         {% elsif post.paperurl %}
-        <p> <a href=" {{ post.paperurl }} "><u>Paper</u></a></p>
+        <p> <a href=" {{ post.paper_url }} "><u>Paper</u></a></p>
         {% elsif post.code_url %}
         <p> <a href=" {{ post.code_url }} "><u>Code</u></a></p>
         {% elsif post.project_url %}

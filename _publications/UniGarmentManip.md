@@ -9,6 +9,8 @@ author: "Ruihai Wu*, Haoran Lu*, Yiyan Wang, Yubo Wang, Hao Dong"
 code_url: "https://github.com/luhr2003/UniGarmentManip"
 project_url: "https://warshallrho.github.io/unigarmentmanip/"
 paper_url: "https://ieeexplore.ieee.org/document/10657950?denied="
+award: "Spotlight Presentation"
+award_venue: "ICRA 2024 Workshop on Deformable Object Manipulation"
 ---
 <style>
     .light-red {
