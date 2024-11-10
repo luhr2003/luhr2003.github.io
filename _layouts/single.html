@@ -28,6 +28,8 @@ layout: default
     {% if page.paper_url %}<meta itemprop="isBasedOn" content="{{ page.paperurl }}">{% endif %}
     {% if page.award %}<meta itemprop="award" content="{{ page.award }}">{% endif %}
     {% if page.award_venue %}<meta itemprop="awardVenue" content="{{ page.award_venue }}">{% endif %}
+    {% if page.teaser %}<meta itemprop="image" content="{{ page.teaser | absolute_url }}">{% endif %}
+
 
 
     <div class="page__inner-wrap">
