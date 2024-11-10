@@ -23,6 +23,10 @@ layout: default
     {% if page.author %}<meta itemprop="author" content="{{ page.author }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.code_url %}<meta itemprop="codeRepository" content="{{ page.code_url }}">{% endif %}
+    {% if page.project_url %}<meta itemprop="isBasedOn" content="{{ page.project_url }}">{% endif %}
+    {% if page.paper_url %}<meta itemprop="isBasedOn" content="{{ page.paperurl }}">{% endif %}
+
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -46,8 +50,6 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-        
-             
         {% if page.citation and page.paperurl %}
           <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}

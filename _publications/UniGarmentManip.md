@@ -6,6 +6,9 @@ excerpt: 'We propose to learn dense visual correspondence for diverse garment ma
 date: 2024-02-01
 venue: 'CVPR 2024'
 author: "Ruihai Wu*, Haoran Lu*, Yiyan Wang, Yubo Wang, Hao Dong"
+code_url: "https://github.com/luhr2003/UniGarmentManip"
+project_url: "https://warshallrho.github.io/unigarmentmanip/"
+paper_url: "https://ieeexplore.ieee.org/document/10657950?denied="
 ---
 <style>
     .light-red {
