@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+google_scholar: https://scholar.google.com/citations?user=wNDTItAAAAAJ&hl=zh-CN
 ---
 
 {% if author.googlescholar %}

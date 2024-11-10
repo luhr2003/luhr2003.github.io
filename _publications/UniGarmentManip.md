@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/unigarmentmanip
 excerpt: 'We propose to learn dense visual correspondence for diverse garment manipulation tasks with category-level generalization using only one- or few-shot human demonstrations. '
 date: 2024-02-01
-venue: 'CVPR'
+venue: 'CVPR 2024'
 ---
 <style>
     .light-red {

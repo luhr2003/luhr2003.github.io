@@ -19,7 +19,7 @@ I am a fourth-year student at the school of EECS of Peking University majoring i
 Currently, I am privileged to be advised by [Prof. Yunzhu Li](https://yunzhuli.github.io/) and [Prof. Alan L. Yuille](https://www.cs.jhu.edu/~ayuille/)
 
 
-[Email](luhr@stu.pku.edu.cn) / [Google Scholar](https://scholar.google.com/citations?user=8Z6Z9QoAAAAJ&hl=en) / [Github](https://github.com/luhr2003)
+[Email](luhr@stu.pku.edu.cn) / [Google Scholar](https://scholar.google.com/citations?user=wNDTItAAAAAJ&hl=zh-CN) / [Github](https://github.com/luhr2003)
 
 Looking for Ph.D. Position
 ======
